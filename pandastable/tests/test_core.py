@@ -1,4 +1,4 @@
-from pandastable import PandasTable
+from pandastable.core import PandasTable
 import pandas as pd
 
 
