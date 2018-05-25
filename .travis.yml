@@ -8,4 +8,5 @@ before_install:
   - pip install -U pip
 
 install:
-  - pip install pandas
+  - pip install pandas pytest
+script: pytest
