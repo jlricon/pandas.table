@@ -9,4 +9,4 @@ before_install:
 
 install:
   - pip install pandas pytest
-script: pytest
+script: py.test pandastable
