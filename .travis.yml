@@ -1,0 +1,11 @@
+language: python
+
+sudo: false
+
+cache: pip
+
+before_install:
+  - pip install -U pip
+
+install:
+  - pip install pandas
