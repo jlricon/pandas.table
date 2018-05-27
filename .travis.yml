@@ -1,4 +1,6 @@
 language: python
+python:
+  -3.5
 
 sudo: false
 
@@ -9,4 +11,4 @@ before_install:
 
 install:
   - pip install pandas pytest
-script: py.test pandastable
+script:  python -m pytest
